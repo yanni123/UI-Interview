@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="c7cfa910be2bb0d0d16fa21cff77500d6db4c0e2" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> Dashboard <x id="START_TAG_SPAN" ctype="x-span"/>NEW<x id="CLOSE_TAG_SPAN" ctype="x-span"/></source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,51 @@
+<header class="app-header navbar">
+    <button class="navbar-toggler d-lg-none" type="button" appMobileSidebarToggler>&#9776;</button>
+    <ul class="nav navbar-nav d-md-down-none">
+        <li class="nav-item">
+            <a class="nav-link navbar-toggler" href="#" appSidebarToggler>&#9776;</a>
+        </li>
+        <li class="nav-item">
+
+        </li>
+    </ul>
+    <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item dropdown" dropdown placement="bottom right">
+
+        </li>
+        <li class="nav-item d-md-down-none">
+            <!-- <a class="nav-link navbar-toggler" href="#" appAsideMenuToggler>&#9776;</a>-->
+        </li>
+    </ul>
+</header>
+<div class="app-body">
+    <div class="sidebar">
+        <nav class="sidebar-nav">
+            <ul class="nav">
+                <li class="nav-title">
+                    DashBoard
+                </li>
+                <li class="divider"></li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" [routerLink]="['/uIInterviewBoard']"><i class="fa fa-dashboard"></i>UI Interview</a>
+                </li>                
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main content -->
+    <main class="main">
+
+        <!-- Breadcrumb -->
+        <ol class="breadcrumb mb-0">
+            <app-breadcrumbs></app-breadcrumbs>
+        </ol>
+
+        <div class="container-fluid">
+            <router-outlet></router-outlet>
+        </div>
+        <!-- /.conainer-fluid -->
+    </main>
+</div>
+
+<footer class="app-footer">
+</footer>
